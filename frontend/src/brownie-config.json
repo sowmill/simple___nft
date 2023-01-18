@@ -1,0 +1,1 @@
+{"dependencies": ["OpenZeppelin/openzeppelin-contracts@3.4.0"], "compiler": {"solc": {"remappings": ["@openzeppelin=OpenZeppelin/openzeppelin-contracts@3.4.0"]}}, "dotenv": ".env", "wallets": {"signing_key": "${PRIVATE_KEY}"}, "networks": {"default": "development", "goerli": {"verify": true}, "development": {"verify": false}, "ganache-local": {"verify": false}}}
